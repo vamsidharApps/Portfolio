@@ -52,6 +52,12 @@ main { max-width: 800px; margin: 2rem auto; }
 .card:hover { transform: translateY(-5px); border-left-color: var(--highlight-color); }
 .date { font-size: 0.9rem; color: #555; margin-bottom: 0.5rem; display: block; }
 
+/* Move bullets right by 10px */
+.card ul {
+  margin-left: 10px;
+  padding-left: 0;
+}
+
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5rem; }
 .skills-grid span { background: var(--secondary-color); color: #fff; padding: 0.5rem; text-align: center; border-radius: 20px; transition: transform 0.3s; }
 .skills-grid span:hover { transform: scale(1.1); }
