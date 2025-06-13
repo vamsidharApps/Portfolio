@@ -20,6 +20,7 @@
       <nav id="navbar">
         <ul>
           <li><a href="#about">About</a></li>
+          <li><a href="#clients">Clients</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -29,52 +30,110 @@
   </header>
 
   <main>
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>Seasoned iOS developer with 10+ years of experience architecting and delivering high-performance iOS applications for enterprise clients. Expert in Swift, UIKit, SwiftUI, MVVM, VIPER, async/await, and performance optimization.</p>
+    <section id="about" class="section section-accent">
+      <div class="inner">
+        <h2>About Me</h2>
+        <p>Seasoned iOS developer with 10+ years of experience architecting and delivering high-performance iOS applications for enterprise clients. Expert in Swift, UIKit, SwiftUI, MVVM, VIPER, async/await, and performance optimization.</p>
+      </div>
+    </section>
+
+    <section id="clients" class="section section-accent-light">
+      <div class="inner">
+        <h2>Clients</h2>
+        <div class="clients-grid">
+          <div class="client-badge">AT&amp;T</div>
+          <div class="client-badge">Costco</div>
+          <div class="client-badge">Fifth Third Bank</div>
+          <div class="client-badge">Cardinal Health</div>
+          <div class="client-badge">Acuity Software Technologies</div>
+        </div>
+      </div>
     </section>
 
     <section id="experience" class="section">
-      <h2>Experience</h2>
-      <div class="card">
-        <h3>Sr. iOS Developer – AT&T</h3>
-        <span class="date">Aug 2022 – Present | Dallas, TX</span>
-        <ul>
-          <li>Built a high‑performance SwiftUI app with Core Data & Google Maps SDK.</li>
-          <li>Integrated RESTful APIs using URLSession & Combine with caching.</li>
-          <li>Automated deployments via Xcode Cloud & Fastlane; added push notifications.</li>
-        </ul>
+      <div class="inner">
+        <h2>Experience</h2>
+        <div class="cards-container">
+          <div class="card">
+            <h3>Sr. iOS Developer – AT&amp;T</h3>
+            <span class="date">Aug 2022 – Present | Dallas, TX</span>
+            <ul>
+              <li>Developed a SwiftUI app with Core Data & Google Maps SDK for field technicians.</li>
+              <li>Integrated RESTful APIs using Combine and URLSession.</li>
+              <li>Automated CI/CD with Xcode Cloud & Fastlane; implemented push notifications.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Sr. iOS Developer – Costco</h3>
+            <span class="date">Apr 2020 – Jul 2022 | Seattle, WA</span>
+            <ul>
+              <li>Built responsive UIs in UIKit and SwiftUI using MVVM architecture.</li>
+              <li>Implemented store locator with MapKit, custom animations, and offline caching.</li>
+              <li>Maintained CI pipeline with GitHub Actions and Fastlane.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Sr. iOS Developer – Fifth Third Bank</h3>
+            <span class="date">Nov 2018 – Mar 2020 | Cincinnati, OH</span>
+            <ul>
+              <li>Architected secure banking app with offline data persistence (Core Data).</li>
+              <li>Developed custom UI components and robust unit tests (XCTest).</li>
+              <li>Integrated OAuth2 and SSL pinning for secure communications.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>iOS Developer – Cardinal Health</h3>
+            <span class="date">Jun 2017 – Oct 2018 | Dublin, OH</span>
+            <ul>
+              <li>Created pharmacy management app with barcode scanning and offline support.</li>
+              <li>Integrated Alamofire/SWIFT with real-time inventory updates via REST APIs.</li>
+              <li>Ensured HIPAA compliance with encryption and secure authentication.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>iOS Developer – Acuity Software Technologies</h3>
+            <span class="date">May 2015 – Dec 2016 | India</span>
+            <ul>
+              <li>Designed modular APIs using AFNetworking and JSON parsing.</li>
+              <li>Implemented dynamic UI with Storyboards, XIBs, and Auto Layout.</li>
+              <li>Supported MDM integration and push notifications (APNs).</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <!-- Add other roles similarly -->
     </section>
 
-    <section id="skills" class="section">
-      <h2>Technical Skills</h2>
-      <div class="skills-grid">
-        <span>Swift</span>
-        <span>UIKit</span>
-        <span>SwiftUI</span>
-        <span>Core Data</span>
-        <span>Combine</span>
-        <span>MapKit</span>
-        <span>URLSession</span>
-        <span>CI/CD</span>
-        <span>XCTest</span>
-        <span>Git</span>
+    <section id="skills" class="section section-accent-light">
+      <div class="inner">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <span>Swift</span>
+          <span>UIKit</span>
+          <span>SwiftUI</span>
+          <span>Core Data</span>
+          <span>Combine</span>
+          <span>MapKit</span>
+          <span>CI/CD</span>
+          <span>XCTest</span>
+          <span>REST & GraphQL</span>
+          <span>Git</span>
+        </div>
       </div>
     </section>
 
     <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:Vamsidhar.apps@gmail.com">Vamsidhar.apps@gmail.com</a></p>
-      <p>Phone: (850) 783-0293</p>
+      <div class="inner">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:Vamsidhar.apps@gmail.com">Vamsidhar.apps@gmail.com</a></p>
+        <p><strong>Phone:</strong> (850) 783-0293</p>
+      </div>
     </section>
   </main>
 
   <footer>
     <p>© 2025 Vamsidhar</p>
   </footer>
-
+  
   <script src="script.js"></script>
 </body>
 </html>
