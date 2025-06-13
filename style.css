@@ -18,7 +18,15 @@ header {
   padding: 1rem 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 6px rgba(0,0,0,0.1); animation: fadeIn 1s;
 }
 .container { display: flex; align-items: center; justify-content: space-between; max-width: 1000px; margin: auto; padding: 0 1rem; }
-.profile-pic { width: 100px; height: 100px; border-radius: 50%; border: 3px solid var(--highlight-color); box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+.profile-pic {
+  width: 120px;
+  height: auto;
+  max-height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--highlight-color);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
 .headline { margin-left: 1rem; flex-grow: 1; }
 .logo { font-size: 2rem; color: #fff; animation: slideIn 0.8s; }
 .subtitle { color: #fffcc; margin-top: 0.2rem; }
